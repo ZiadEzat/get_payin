@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get_payin/modules/home/home_screen.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(HomeScreen());
 }
 
 class MainApp extends StatelessWidget {
