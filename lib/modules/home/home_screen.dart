@@ -25,6 +25,7 @@ class HomeScreen extends StatelessWidget {
               IncomeOutcomeContainer(),
               SizedBox(height: 30),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Text(
                     'Earnings',
@@ -41,7 +42,11 @@ class HomeScreen extends StatelessWidget {
                       ))
                 ],
               ),
-              EarningCard(),
+              Row(
+                children: [
+                  EarningCard(),
+                ],
+              ),
               Row(
                 children: [
                   Text(
